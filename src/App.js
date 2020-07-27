@@ -25,7 +25,7 @@ function App() {
           <Col id="helloCol" xs={12} sm={6} lg={6} xl={6}>
             <div id="hello">
               <h1>Hello!</h1>
-              <h2>thanks for stopping by</h2>
+              <h2>Thanks for stopping by</h2>
             </div>
           </Col>
           <Col xs={12} sm={6} lg={6} xl={6}>
@@ -39,15 +39,16 @@ function App() {
             <div id="about">
               <h3 id="aboutTitle">About Me</h3>
               <p id="paragraph">
-                Early after graduating high school, I quickly found that designing and creating
-                brought me joy. I found a passion for building things on the web
-                and I knew that's what I wanted to pursue. As I graduate from Emerging Digital Academy in Fargo, ND,
-                I am excited to grow in a career that I love.
-                <br /><br />
-                I was born in Bismarck and raised in Fargo and I absolutely love
-                living here. I’m a hardcore North Dakota girl. I enjoy
-                basketball, baking, being active, and going to the lake in the
-                summer!
+                Early after graduating high school, I quickly found that
+                designing and creating brought me joy. I found a passion for
+                building things on the web and I knew that's what I wanted to
+                pursue. As I graduate from Emerging Digital Academy in Fargo,
+                ND, I am excited to grow in a career that I love.
+                <br />
+                <br />I was born in Bismarck and raised in Fargo and I
+                absolutely love living here. I’m a hardcore North Dakota girl. I
+                enjoy basketball, baking, being active, and going to the lake in
+                the summer!
               </p>
             </div>
           </Col>
@@ -66,7 +67,9 @@ function App() {
                   Academy. A user can create an account and login, search
                   restaurants, and save them to the lists in their profile.
                 </Card.Text>
-                <a href="https://github.com/baileyniemiller/foodie"><Button className="goButton">Go to Github</Button></a>
+                <a href="https://github.com/baileyniemiller/foodie">
+                  <Button className="goButton">Go to Github</Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -79,7 +82,9 @@ function App() {
                   Digital Academy. A user can click a movie to view the details
                   and has the option to edit the title and description.
                 </Card.Text>
-                <a href ="https://github.com/baileyniemiller/movie-sagas"><Button className="goButton">Go to Github</Button></a>
+                <a href="https://github.com/baileyniemiller/movie-sagas">
+                  <Button className="goButton">Go to Github</Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -90,10 +95,11 @@ function App() {
                 <Card.Text className="cardText">
                   Another one of our weekend projects was to create a
                   server-side calculator. A user can calculate two numbers and
-                  the total will be displayed as well as a running list of
-                  previous calculations.
+                  the calculation is done on completely on the server.
                 </Card.Text>
-                <a href="https://github.com/baileyniemiller/jquery-server-calculator"><Button className="goButton">Go to Github</Button></a>
+                <a href="https://github.com/baileyniemiller/jquery-server-calculator">
+                  <Button className="goButton">Go to Github</Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -105,14 +111,14 @@ function App() {
           <a href="https://www.linkedin.com/in/baileyniemiller/">
             <LinkedInIcon
               fontSize="large"
-              style={{ fill: "#8ba39f" }}
+              style={{ fill: "#10183b" }}
               className="social"
             ></LinkedInIcon>
           </a>
           <a href="https://github.com/baileyniemiller">
             <GitHubIcon
               fontSize="large"
-              style={{ fill: "#8ba39f" }}
+              style={{ fill: "#10183b" }}
               className="social"
             ></GitHubIcon>
           </a>
@@ -121,6 +127,12 @@ function App() {
           <Col id="form" xs={12} sm={12} lg={12} xl={12}>
             <p className="info">Email: baileyniemiller@gmail.com</p>
             <p className="info">Cell: 701-429-8247</p>
+            <a
+              id="resumeLink"
+              href="https://drive.google.com/file/d/1hZpkA1JJ9uM8PtLXWUwQ82qRGfwcpIs9/view?usp=sharing"
+            >
+              <Button id="resumeButton" className="goButton">Resume</Button>
+            </a>
             {/* <Form id="contact-form">
               <Form.Group controlId="formBasicHidden">
                 <Form.Control type="hidden" name="contact_number" />

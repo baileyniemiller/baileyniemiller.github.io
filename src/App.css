@@ -39,31 +39,39 @@ h2 {
   width: 70%;
   margin-right: 15%;
   margin-left: 15%;
+  color:#10183b;
+  /* background-color: #ffbe33;
+  border-radius: 5px; */
 }
 
 #aboutTitle {
   font-family: "Century Gothic";
   font-size: 35px;
-  color: #e38546;
+  color:#10183b;
   margin-top: 100px;
+  padding-top: 30px;
 }
+
 
 #paragraph {
   font-family: "Century Gothic";
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 #picture {
   text-align: left;
   margin-top: 50px;
-  /* padding: 100px 0; */
 }
 
 #midDiv {
   background-color: #b8ded8;
   height: 100px; 
+  margin-top: -70px;
 }
 
 #projectRow {
@@ -75,12 +83,13 @@ h2 {
 #projectTitle {
   font-family: "Century Gothic";
   font-size: 35px;
-  color: #e38546; 
+  color: #8ba39f; 
   margin-bottom: 30px;
 }
 
 .cardText {
   margin-top: 0px;
+  color: #10183b;
 }
 
 .goButton {
@@ -97,7 +106,7 @@ h2 {
 #contactTitle {
   font-family: "Century Gothic";
   font-size: 35px;
-  color: #e38546;
+  color: #8ba39f;
   margin-top: 30px;
   margin-bottom: 15px;
   text-align: center;
@@ -120,6 +129,35 @@ h2 {
   margin: 5px;
 }
 
+#footerRow {
+  font-family: "Century Gothic";
+  text-align: center;
+  background-color: #8ba39f;
+}
+
+#footerText {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.info {
+  font-family: "Century Gothic";
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+  color: #10183b;
+}
+
+#form {
+  text-align: center;
+}
+
+#resumeButton {
+  margin-bottom: 30px;
+}
+
 /* #submitButton {
   background-color: white;
   border-color: white;
@@ -140,23 +178,3 @@ h2 {
   font-family: "Century Gothic";
   font-size: 18px;
 } */
-
-#footerRow {
-  font-family: "Century Gothic";
-  text-align: center;
-  background-color: #8ba39f;
-}
-
-#footerText {
-  margin: 0;
-  padding: 20px;
-  color: white;
-  font-size: 18px;
-}
-
-.info {
-  font-family: "Century Gothic";
-  font-size: 18px;
-  margin-top: 10px;
-  text-align: center;
-}
